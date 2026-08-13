@@ -1,0 +1,19 @@
+[theme]
+# Bug Lifecycle Management System - Dark Theme Configuration
+# Matches the HTML reference design from Bug-Lifecycle-Landing
+
+primaryColor = "#F87171"        # Primary red from landing page
+backgroundColor = "#020617"      # Dark background
+secondaryBackgroundColor = "#0F172A"  # Card background
+textColor = "#F8FAFC"           # Main text color
+font = "sans serif"             # Will be overridden by Google Fonts in CSS
+
+[server]
+# Performance settings
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = false
+
+[browser]
+# Browser behavior
+gatherUsageStats = false
