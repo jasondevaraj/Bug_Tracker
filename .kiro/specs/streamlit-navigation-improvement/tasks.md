@@ -2,7 +2,7 @@
 
 ## Overview
 
-This plan implements navigation improvements for the Bug Lifecycle Management System by hiding the default Streamlit sidebar, replacing href-based navigation with `st.switch_page()`, and making the Landing page the default entry point. The implementation focuses solely on navigation mechanisms while preserving all existing page designs, layouts, and styling.
+This plan implements navigation improvements for the Intelligent Software Defect Tracking System with Resolution Assistance by hiding the default Streamlit sidebar, replacing href-based navigation with `st.switch_page()`, and making the Landing page the default entry point. The implementation focuses solely on navigation mechanisms while preserving all existing page designs, layouts, and styling.
 
 ## Tasks
 
@@ -20,7 +20,7 @@ This plan implements navigation improvements for the Bug Lifecycle Management Sy
     - Implement navbar using `st.columns()` layout with three sections: icon, navigation links, action buttons
     - Add `st.button()` for Home icon (🐛) that calls `st.switch_page("pages/1_Landing.py")`
     - Add `st.button()` for "Home" link that calls `st.switch_page("pages/1_Landing.py")`
-    - Keep anchor links for Bug Lifecycle, Features, Why Choose Us (they stay on Landing page)
+    - Keep anchor links for Defect Tracking, Features, Why Choose Us (they stay on Landing page)
     - Add `st.button()` for "Login" that calls `st.switch_page("pages/2_Login.py")`
     - Add `st.button()` for "Sign Up" that calls `st.switch_page("pages/3_Signup.py")`
     - Ensure all button keys are unique (nav_icon, nav_home, nav_login, nav_signup)

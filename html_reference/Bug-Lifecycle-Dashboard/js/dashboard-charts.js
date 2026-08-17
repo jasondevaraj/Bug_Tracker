@@ -1,5 +1,5 @@
 /**
- * Bug Lifecycle Dashboard — Chart Renderer + Filter Integration
+ * Intelligent Defect Tracking Dashboard — Chart Renderer + Filter Integration
  * Renders 8 interactive Chart.js visualizations using data from DataProcessor.
  * Manages chart instances for live updates when filters change.
  * Depends on Chart.js 4.x (loaded from CDN).

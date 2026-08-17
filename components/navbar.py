@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Navigation Component
+Intelligent Software Defect Tracking System with Resolution Assistance - Navigation Component
 Provides reusable navigation bar for all pages.
 """
 
@@ -21,7 +21,7 @@ def render_navbar(active_page: str = None):
             </a>
             <div style="display: flex; align-items: center; gap: 0.65rem; flex: 1; justify-content: center;">
                 <a href="/#home" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none; transition: all 0.25s ease; font-size: 1rem;">Home</a>
-                <a href="/#lifecycle" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none; transition: all 0.25s ease; font-size: 1rem;">Bug Lifecycle</a>
+                <a href="/#lifecycle" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none; transition: all 0.25s ease; font-size: 1rem;">Defect Tracking</a>
                 <a href="/#features" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none; transition: all 0.25s ease; font-size: 1rem;">Features</a>
                 <a href="/#why-us" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none; transition: all 0.25s ease; font-size: 1rem;">Why Choose Us</a>
             </div>

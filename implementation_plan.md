@@ -1,4 +1,4 @@
-# Bug Lifecycle Dashboard Module — Implementation Plan
+# Intelligent Defect Tracking Dashboard Module — Implementation Plan
 
 Build a fully client-side, interactive analytics dashboard inside `Bug-Lifecycle-Dashboard/` that mirrors the dark-mode visual identity of the existing landing page and visualizes the 200-row CSV dataset.
 

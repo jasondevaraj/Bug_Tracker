@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Data Loading Utilities
+Intelligent Software Defect Tracking System with Resolution Assistance - Data Loading Utilities
 Provides CSV loading, cleaning, and preprocessing functions.
 """
 

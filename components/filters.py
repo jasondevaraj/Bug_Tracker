@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Filter Components
+Intelligent Software Defect Tracking System with Resolution Assistance - Filter Components
 Provides filter toolbar with dropdowns and search for dashboard.
 """
 

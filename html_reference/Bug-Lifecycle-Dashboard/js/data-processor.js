@@ -1,5 +1,5 @@
 /**
- * Bug Lifecycle Dashboard — Data Processor
+ * Intelligent Defect Tracking Dashboard — Data Processor
  * Loads, parses, cleans, and aggregates the CSV dataset.
  * Depends on Papa Parse (loaded from CDN in index.html).
  */

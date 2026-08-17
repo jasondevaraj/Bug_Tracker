@@ -2,7 +2,7 @@
 
 ## Overview
 
-This design addresses navigation issues in the Bug Lifecycle Management System's Streamlit multipage application. Currently, the application suffers from two critical problems:
+This design addresses navigation issues in the Intelligent Software Defect Tracking System with Resolution Assistance Streamlit multipage application. Currently, the application suffers from two critical problems:
 
 1. **Default sidebar visibility**: Streamlit's auto-generated sidebar navigation is visible and interferes with the custom navbar design
 2. **Non-functional href navigation**: The custom navbar uses HTML `href` links (e.g., `/Login`, `/Signup`) which don't properly navigate within Streamlit's multipage architecture
@@ -651,7 +651,7 @@ st.switch_page(page: str) -> None
 
 ```python
 """
-Bug Lifecycle Management System - Navigation Component
+Intelligent Software Defect Tracking System with Resolution Assistance - Navigation Component
 Provides reusable navigation bar for all pages with st.switch_page() navigation.
 """
 
@@ -755,7 +755,7 @@ def render_navbar(active_page: str = None):
         
         with nav_cols[1]:
             # Anchor link (stays on Landing page)
-            st.markdown('<a href="#lifecycle" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none;">Bug Lifecycle</a>', unsafe_allow_html=True)
+            st.markdown('<a href="#lifecycle" style="padding: 0.75rem 1.1rem; border-radius: 999px; color: white; text-decoration: none;">Defect Tracking</a>', unsafe_allow_html=True)
         
         with nav_cols[2]:
             # Anchor link (stays on Landing page)

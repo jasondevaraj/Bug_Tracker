@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Card Components
+Intelligent Software Defect Tracking System with Resolution Assistance - Card Components
 Provides reusable card components (KPI cards, feature cards, timeline cards).
 """
 

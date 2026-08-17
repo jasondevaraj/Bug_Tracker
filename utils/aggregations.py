@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Data Aggregation Utilities
+Intelligent Software Defect Tracking System with Resolution Assistance - Data Aggregation Utilities
 Provides data transformation and aggregation functions for dashboard charts.
 """
 

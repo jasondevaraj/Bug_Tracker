@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Dashboard Page
+Intelligent Software Defect Tracking System with Resolution Assistance - Dashboard Page
 Interactive analytics dashboard with KPI cards, filters, and 8 Chart.js visualizations converted to Plotly.
 """
 
@@ -29,7 +29,7 @@ from components.charts import (
 
 # Page config
 st.set_page_config(
-    page_title="Dashboard — Bug Lifecycle Management",
+    page_title="Dashboard — Intelligent Software Defect Tracking System with Resolution Assistance",
     page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -137,8 +137,8 @@ header[data-testid="stHeader"] {
 # Page Header
 st.markdown("""
 <div class="dashboard-header">
-    <h1> Bug Analytics Dashboard</h1>
-    <p>Real-time insights from the Bug Lifecycle Management dataset</p>
+    <h1> Intelligent Software Defect Tracking System with Resolution Assistance</h1>
+    <p>Real-time insights from the defect tracking dataset</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -266,7 +266,7 @@ st.markdown("""
 ">
     <div style="margin-bottom: 0.5rem;">
         <span style="color: #F87171; font-size: 1.25rem;">🐛</span>
-        <strong style="color: #F8FAFC; margin-left: 0.5rem;">Bug Lifecycle Management System</strong>
+        <strong style="color: #F8FAFC; margin-left: 0.5rem;">Intelligent Defect Tracking</strong>
     </div>
     <div style="margin-top: 1rem;">
         <a href="/" style="color: #94A3B8; text-decoration: none; margin: 0 1rem;">Home</a>
@@ -274,7 +274,7 @@ st.markdown("""
         <a href="/Login" style="color: #94A3B8; text-decoration: none; margin: 0 1rem;">Login</a>
     </div>
     <div style="margin-top: 1rem; color: #64748B;">
-        © 2026 Bug Lifecycle Management System. All rights reserved.
+        © 2026 Intelligent Software Defect Tracking System with Resolution Assistance. All rights reserved.
     </div>
 </div>
 """, unsafe_allow_html=True)

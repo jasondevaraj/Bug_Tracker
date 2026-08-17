@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Chart Components
+Intelligent Software Defect Tracking System with Resolution Assistance - Chart Components
 Provides 8 Plotly chart rendering functions for the dashboard.
 """
 

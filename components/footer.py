@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Footer Component
+Intelligent Software Defect Tracking System with Resolution Assistance - Footer Component
 Provides reusable footer for all pages.
 """
 
@@ -16,7 +16,7 @@ def render_footer():
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; align-items: center; text-align: center;">
                 <div>
                     <h5 style="color: #F87171; font-weight: 700; margin-bottom: 0; display: flex; align-items: center; gap: 0.5rem; justify-content: center; font-family: 'Poppins', sans-serif;">
-                        <span style="font-size: 1.5rem;">🐛</span> Bug Lifecycle Management System
+                        <span style="font-size: 1.5rem;">🐛</span> Intelligent Defect Tracking
                     </h5>
                 </div>
                 <div style="display: flex; gap: 1.5rem; justify-content: center;">
@@ -35,7 +35,7 @@ def render_footer():
             </div>
             <hr style="border: none; border-top: 1px solid rgba(255, 255, 255, 0.08); margin: 2rem 0;">
             <div style="text-align: center; color: #94A3B8; font-size: 0.875rem;">
-                © 2026 Bug Lifecycle Management System. All rights reserved.
+                © 2026 Intelligent Software Defect Tracking System with Resolution Assistance. All rights reserved.
             </div>
         </div>
     </footer>

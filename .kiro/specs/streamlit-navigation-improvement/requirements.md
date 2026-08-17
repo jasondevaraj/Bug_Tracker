@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This document specifies requirements for improving navigation in a Streamlit multipage Bug Lifecycle Management System application. The application currently has visibility and functionality issues with its default sidebar navigation and custom navbar component. This enhancement will hide the default Streamlit sidebar, implement proper page navigation using Streamlit's official navigation mechanism (st.switch_page()), and ensure the Landing page serves as the default entry point while preserving all existing files, designs, and layouts.
+This document specifies requirements for improving navigation in the Intelligent Software Defect Tracking System with Resolution Assistance Streamlit multipage application. The application currently has visibility and functionality issues with its default sidebar navigation and custom navbar component. This enhancement will hide the default Streamlit sidebar, implement proper page navigation using Streamlit's official navigation mechanism (st.switch_page()), and ensure the Landing page serves as the default entry point while preserving all existing files, designs, and layouts.
 
 ## Glossary
 
-- **Application**: The Bug Lifecycle Management System built with Streamlit
+- **Application**: The Intelligent Software Defect Tracking System with Resolution Assistance built with Streamlit
 - **Default_Sidebar**: The automatically generated sidebar navigation provided by Streamlit's multipage architecture
 - **Custom_Navbar**: The custom navigation bar component defined in components/navbar.py
 - **Landing_Page**: The page file located at pages/1_Landing.py, serving as the home page

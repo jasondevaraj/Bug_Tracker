@@ -1,5 +1,5 @@
 """
-Bug Lifecycle Management System - Styling Utilities
+Intelligent Software Defect Tracking System with Resolution Assistance - Styling Utilities
 Provides CSS injection system and theme management for Streamlit.
 """
 
