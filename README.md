@@ -38,7 +38,6 @@ The system centralizes defect information and provides an interactive dashboard 
 - **Pandas**
 - **Plotly**
 - **Scikit-learn**
-- **TF-IDF**
 - **Machine Learning**
 - **Git & GitHub**
 
