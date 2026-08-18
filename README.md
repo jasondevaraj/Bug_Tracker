@@ -64,6 +64,33 @@ The dashboard provides visualizations for:
 7. Resolution Type
 8. Root Cause Analysis
 
+## Installation
+
+### 1. Clone the Repository
+
+git clone <your-github-repository-url>
+cd Intelligent-software-defect-tracking-system-with-resolution-assistance
+
+### 2. Create and Activate Virtual Environment
+
+python -m venv .venv
+
+**Windows:**
+.venv\Scripts\activate
+
+**Linux/macOS:**
+source .venv/bin/activate
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+### 4. Run the Application
+
+streamlit run app.py
+
+Open the local URL provided by Streamlit in your browser.
+
 ## Project Structure
 
 ```text
@@ -100,30 +127,3 @@ Intelligent-software-defect-tracking-system-with-resolution-assistance/
 ├── implementation_plan.md
 ├── LICENSE
 └── requirements.txt
-
-## Installation
-
-### 1. Clone the Repository
-
-git clone <your-github-repository-url>
-cd Intelligent-software-defect-tracking-system-with-resolution-assistance
-
-### 2. Create and Activate Virtual Environment
-
-python -m venv .venv
-
-**Windows:**
-.venv\Scripts\activate
-
-**Linux/macOS:**
-source .venv/bin/activate
-
-### 3. Install Dependencies
-
-pip install -r requirements.txt
-
-### 4. Run the Application
-
-streamlit run app.py
-
-Open the local URL provided by Streamlit in your browser.
