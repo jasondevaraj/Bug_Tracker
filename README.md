@@ -14,7 +14,6 @@ The system centralizes defect information and provides an interactive dashboard 
 - Provide interactive filtering and search functionality.
 - Generate meaningful defect analytics and visualizations.
 - Perform data preprocessing and historical defect analysis.
-- Explore machine learning approaches for defect priority prediction.
 - Provide insights that can support more efficient defect management.
 
 ## Key Features
@@ -29,7 +28,6 @@ The system centralizes defect information and provides an interactive dashboard 
 - Weekly bug reporting trends
 - Resolution type analysis
 - Root cause analysis
-- Machine learning-based defect analysis
 
 ## Technologies Used
 
@@ -38,7 +36,6 @@ The system centralizes defect information and provides an interactive dashboard 
 - **Pandas**
 - **Plotly**
 - **Scikit-learn**
-- **Machine Learning**
 - **Git & GitHub**
 
 ## Machine Learning
@@ -103,3 +100,30 @@ Intelligent-software-defect-tracking-system-with-resolution-assistance/
 ├── implementation_plan.md
 ├── LICENSE
 └── requirements.txt
+
+## Installation
+
+### 1. Clone the Repository
+
+git clone <your-github-repository-url>
+cd Intelligent-software-defect-tracking-system-with-resolution-assistance
+
+### 2. Create and Activate Virtual Environment
+
+python -m venv .venv
+
+**Windows:**
+.venv\Scripts\activate
+
+**Linux/macOS:**
+source .venv/bin/activate
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+### 4. Run the Application
+
+streamlit run app.py
+
+Open the local URL provided by Streamlit in your browser.
