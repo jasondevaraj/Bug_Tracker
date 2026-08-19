@@ -38,19 +38,6 @@ The system centralizes defect information and provides an interactive dashboard 
 - **Scikit-learn**
 - **Git & GitHub**
 
-## Machine Learning
-
-The project includes data preprocessing and experimentation with different machine learning approaches for defect-related prediction tasks.
-
-The approaches explored include:
-
-- Support Vector Machine (SVM)
-- Linear Regression
-- Decision Tree-based models
-- Random Forest classification
-
-These techniques are explored to support the prediction of defect priority and resolution-assistance related analysis.
-
 ## Dashboard Analytics
 
 The dashboard provides visualizations for:
